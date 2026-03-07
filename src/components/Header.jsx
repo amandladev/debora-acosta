@@ -49,6 +49,8 @@ export default function Header() {
           ))}
           <a
             href={LINKS.schedule}
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm font-medium bg-sage-500 text-white px-5 py-2.5 rounded-xl hover:bg-sage-600 transition-all"
           >
             Agendar sessão
@@ -94,6 +96,8 @@ export default function Header() {
           ))}
           <a
             href={LINKS.schedule}
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-2 text-center font-medium bg-sage-500 text-white px-5 py-3 rounded-xl hover:bg-sage-600 transition-all"
             onClick={() => setIsMobileOpen(false)}
           >

@@ -28,7 +28,7 @@ export default function Footer() {
             </p>
             <p>
               <a
-                href="https://wa.me/5531997492770"
+                href="https://wa.me/5531997492770?text=Olá%20Debora,%20vi%20seu%20site%20e%20gostaria%20de%20informações%20sobre%20terapia"
                 className="hover:text-cream-100 transition-colors underline underline-offset-2"
                 target="_blank"
                 rel="noopener noreferrer"

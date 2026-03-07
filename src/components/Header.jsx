@@ -33,7 +33,7 @@ export default function Header() {
           className="font-serif text-xl md:text-2xl text-text-primary hover:text-sage-600 transition-colors"
           aria-label="Início"
         >
-          Débora Costa
+          Debora Costa
         </a>
 
         {/* Desktop nav */}

@@ -10,7 +10,7 @@ export default function PhotoPlaceholder({ size = 'md', className = '' }) {
     <div
       className={`${sizeClasses[size]} rounded-full bg-gradient-to-br from-cream-300 via-sage-100 to-warm-300 flex items-center justify-center overflow-hidden shadow-card ${className}`}
       role="img"
-      aria-label="Foto de Débora Costa, Psicóloga"
+      aria-label="Foto de Debora Costa, Psicóloga"
     >
       <svg
         className="w-2/3 h-2/3 text-warm-500/40"

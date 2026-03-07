@@ -18,7 +18,7 @@ export default function About() {
           <div className="w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden shadow-card bg-gradient-to-br from-cream-300 via-sage-100 to-warm-300">
             <img
               src="/debora-about.jpg"
-              alt="Débora Costa, Psicóloga"
+              alt="Debora Costa, Psicóloga"
               className="w-full h-full object-cover"
               loading="lazy"
               width={600}
@@ -31,7 +31,7 @@ export default function About() {
         <div className="flex-1 text-center lg:text-left">
           <SectionHeading
             eyebrow="Sobre a psicóloga"
-            title="Débora Costa"
+            title="Debora Costa"
             center={false}
           />
 

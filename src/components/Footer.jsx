@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
           {/* Info */}
           <div>
-            <p className="font-serif text-xl text-cream-100 mb-1">Débora Costa</p>
+            <p className="font-serif text-xl text-cream-100 mb-1">Debora Costa</p>
             <p className="text-cream-400 text-sm">
               Psicóloga — CRP XX/XXXXX
             </p>
@@ -41,7 +41,7 @@ export default function Footer() {
 
         {/* Divider */}
         <div className="border-t border-warm-700/30 mt-8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-cream-400/70">
-          <p>&copy; {currentYear} Débora Costa. Todos os direitos reservados.</p>
+          <p>&copy; {currentYear} Debora Costa. Todos os direitos reservados.</p>
           <p className="max-w-md text-center md:text-right leading-relaxed">
             Este site não substitui atendimento médico ou psiquiátrico. Em caso de emergência, procure o CVV (188) ou o SAMU (192).
           </p>

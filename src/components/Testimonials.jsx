@@ -10,13 +10,13 @@ const testimonials = [
   },
   {
     quote:
-      'As sessões com a Débora me ajudaram a entender padrões que eu repetia há anos. A escuta dela é genuína e o processo, transformador. Recomendo de coração.',
+      'As sessões com a Debora me ajudaram a entender padrões que eu repetia há anos. A escuta dela é genuína e o processo, transformador. Recomendo de coração.',
     author: 'R.L.',
     location: 'Toronto, Canadá',
   },
   {
     quote:
-      'Eu tinha receio da terapia online, mas a experiência é incrivelmente natural. O espaço que a Débora cria faz com que eu me sinta segura e acolhida, mesmo a distância.',
+      'Eu tinha receio da terapia online, mas a experiência é incrivelmente natural. O espaço que a Debora cria faz com que eu me sinta segura e acolhida, mesmo a distância.',
     author: 'A.P.',
     location: 'Berlim, Alemanha',
   },

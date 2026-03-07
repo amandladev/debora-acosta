@@ -1,4 +1,4 @@
-# Débora Costa — Psicóloga Online
+# Debora Costa — Psicóloga Online
 
 Landing page for a Brazilian psychologist offering online therapy in Portuguese.
 

@@ -2,11 +2,11 @@ import SectionWrapper from './ui/SectionWrapper';
 import SectionHeading from './ui/SectionHeading';
 
 const highlights = [
-  '7 anos de experiência em atendimento clínico',
-  'Abordagem psicanalítica — escuta profunda e sem julgamento',
-  'Foco em autoconhecimento e compreensão de si',
-  'Atendimento acolhedor e empático',
-  'Especialização em atendimento online',
+  'Psicóloga formada pela PUC Minas (2019), com início da prática clínica em 2017',
+  'Experiência em Hospital Luxemburgo (cuidados paliativos), Centro de Saúde Hermelinda, Colégio Santa Maria, Centro Juvenil Dom Bosco e clínica-escola',
+  'Projeto social Saúde Mental para Todos (2021–2023) — ampliação do acesso ao cuidado psicológico',
+  'Grupos de estudo em feminismo, depressão, morte, imigração, amor, envelhecimento e mal-estar na contemporaneidade',
+  'Em formação em psicanálise pela Escola Brasileira de Psicanálise, seção Bahia',
 ];
 
 export default function About() {
@@ -30,17 +30,24 @@ export default function About() {
         {/* Content */}
         <div className="flex-1 text-center lg:text-left">
           <SectionHeading
-            eyebrow="Sobre a psicóloga"
+            eyebrow="Percurso e prática clínica"
             title="Debora Costa"
             center={false}
           />
 
           <p className="text-text-secondary text-lg leading-relaxed mb-6 -mt-8">
-            Sou psicóloga clínica com abordagem psicanalítica. Há 7 anos, acompanho pessoas em processos de autoconhecimento, acolhendo suas dores, dúvidas e transformações.
+            Minha prática clínica é orientada pela psicanálise e se sustenta na aposta na palavra como possibilidade de elaboração do sofrimento.
           </p>
           <p className="text-text-secondary text-lg leading-relaxed mb-8">
-            Meu trabalho é oferecer uma escuta genuína — um espaço onde você pode falar sobre o que sente, sem pressa e sem julgamento. Acredito que, ao nos compreendermos mais profundamente, encontramos caminhos mais livres para viver.
+            Na clínica, sustento um espaço de escuta ética e sigilosa, onde cada pessoa possa falar sobre o que vive e, quando possível, encontrar novas formas de se posicionar diante da própria história. Faço análise desde 2015 — experiência que também sustenta minha confiança na palavra e na possibilidade de produzir novos sentidos para aquilo que nos atravessa.
           </p>
+
+          <blockquote className="border-l-4 border-sage-300 pl-5 mb-8">
+            <p className="text-text-secondary text-lg italic leading-relaxed mb-1">
+              "O importante não é o que fizeram de mim, mas o que eu faço com o que fizeram de mim."
+            </p>
+            <cite className="text-sm text-text-light not-italic">— Jean-Paul Sartre</cite>
+          </blockquote>
 
           <ul className="space-y-3">
             {highlights.map((item) => (

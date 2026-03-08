@@ -20,8 +20,8 @@ export default function Hero() {
             </span>
 
             <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-[3.5rem] leading-[1.15] text-text-primary text-balance">
-              Quando tudo pesa, ter alguém para ouvir{' '}
-              <span className="text-sage-600 italic">faz diferença.</span>
+              Um espaço para falar. {' '}
+              <span className="text-sage-600 italic">Um tempo para escutar.</span>
             </h1>
 
             <p className="mt-6 text-lg md:text-xl text-text-secondary leading-relaxed max-w-xl mx-auto lg:mx-0">

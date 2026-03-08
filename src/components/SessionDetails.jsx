@@ -38,7 +38,7 @@ const details = [
       </svg>
     ),
     title: 'Duração da sessão',
-    description: 'Sessões de 50 minutos, com frequência semanal.',
+    description: 'Duração média de 50 minutos, com frequência semanal.',
   },
 ];
 

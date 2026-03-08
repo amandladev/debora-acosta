@@ -1,3 +1,5 @@
+import { trackLead } from '../../utils/analytics';
+
 const variants = {
   primary:
     'bg-sage-500 text-white hover:bg-sage-600 active:bg-sage-700 shadow-soft hover:shadow-card',
@@ -19,6 +21,7 @@ export default function Button({
   size = 'md',
   href,
   className = '',
+  onClick,
   ...props
 }) {
   const baseClasses =
@@ -28,10 +31,16 @@ export default function Button({
 
   if (href) {
     const isExternal = href.startsWith('http');
+    const isSchedule = href.includes('wa.me');
+    const handleClick = (e) => {
+      if (isSchedule) trackLead();
+      onClick?.(e);
+    };
     return (
       <a
         href={href}
         className={classes}
+        onClick={handleClick}
         {...(isExternal && { target: '_blank', rel: 'noopener noreferrer' })}
         {...props}
       >

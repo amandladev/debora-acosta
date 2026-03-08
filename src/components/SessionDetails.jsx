@@ -46,9 +46,9 @@ export default function SessionDetails() {
   return (
     <SectionWrapper id="sessoes" bgClassName="bg-white/50">
       <SectionHeading
-        eyebrow="Informações"
-        title="Detalhes sobre as sessões"
-        subtitle="Tudo pensado para que sua experiência terapêutica seja confortável e acessível."
+        eyebrow="Como funciona na prática"
+        title="Simples, seguro e feito para você"
+        subtitle="Sem deslocamento, sem sala de espera. A terapia acontece onde você estiver, no horário que funciona para a sua rotina."
       />
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

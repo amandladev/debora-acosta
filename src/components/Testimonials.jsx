@@ -6,7 +6,7 @@ const testimonials = [
     quote:
       'Encontrar uma psicóloga que fala português foi essencial para mim. É muito diferente poder expressar meus sentimentos na minha língua — finalmente me sinto compreendida.',
     author: 'M.S.',
-    location: 'Londres, Reino Unido',
+    location: 'Lisboa, Portugal',
   },
   {
     quote:

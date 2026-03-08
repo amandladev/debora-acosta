@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <p className="font-serif text-xl text-cream-100 mb-1">Debora Costa</p>
             <p className="text-cream-400 text-sm">
-              Psicóloga — CRP XX/XXXXX
+              Psicóloga — CRP 04/58863
             </p>
             <p className="text-cream-400 text-sm mt-1">
               Atendimento online
@@ -20,10 +20,10 @@ export default function Footer() {
           <div className="text-sm text-cream-400 space-y-1">
             <p>
               <a
-                href="mailto:contato@deboracosta.com.br"
+                href="mailto:contato@deboracosta.com"
                 className="hover:text-cream-100 transition-colors underline underline-offset-2"
               >
-                contato@deboracosta.com.br
+                contato@deboracosta.com
               </a>
             </p>
             <p>

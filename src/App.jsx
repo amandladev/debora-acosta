@@ -36,7 +36,7 @@ export default function App() {
 
       {/* Floating WhatsApp CTA */}
       <a
-        href="https://wa.me/5531997492770?text=Olá%20Debora,%20vi%20seu%20site%20e%20gostaria%20de%20informações%20sobre%20terapia"
+        href="https://wa.me/5531997492770?text=Ol%C3%A1%20Debora%2C%20gostaria%20de%20agendar%20uma%20primeira%20sess%C3%A3o%20de%20terapia."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-elevated hover:scale-110 transition-transform duration-300"

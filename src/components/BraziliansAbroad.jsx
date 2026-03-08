@@ -32,9 +32,9 @@ export default function BraziliansAbroad() {
   return (
     <SectionWrapper id="brasileiros" bgClassName="bg-cream-50">
       <SectionHeading
-        eyebrow="Para brasileiros no exterior"
+        eyebrow="Para brasileiros no mundo todo"
         title="Você não precisa passar por isso sozinho."
-        subtitle="Morar em outro país transforma quem somos. A terapia em português é um espaço para reconectar com você mesmo — com as suas palavras."
+        subtitle="Morar fora muda tudo — a língua, a rotina, os vínculos. A terapia em português é um espaço para reconectar com você mesmo, do jeito que só a sua língua permite."
       />
 
       <div className="grid gap-6 sm:grid-cols-2">
@@ -43,7 +43,7 @@ export default function BraziliansAbroad() {
             key={item.title}
             className="group bg-white/60 backdrop-blur-sm rounded-3xl p-6 md:p-8 shadow-soft hover:shadow-card transition-all duration-300 hover:-translate-y-1 border border-cream-300/50"
           >
-            <span className="text-3xl block mb-4 group-hover:scale-110 transition-transform duration-300" aria-hidden="true">
+            <span className="text-3xl inline-block mb-4 group-hover:scale-110 transition-transform duration-300" aria-hidden="true">
               {item.emoji}
             </span>
             <h3 className="font-serif text-xl text-text-primary mb-2">

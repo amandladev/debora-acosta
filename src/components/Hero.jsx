@@ -16,20 +16,20 @@ export default function Hero() {
           {/* Copy */}
           <div className="flex-1 text-center lg:text-left">
             <span className="inline-block bg-sage-100 text-sage-600 text-sm font-medium px-4 py-1.5 rounded-full mb-6">
-              🌿 Atendimento 100% online
+              🌿 Para brasileiros em qualquer parte do mundo
             </span>
 
             <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-[3.5rem] leading-[1.15] text-text-primary text-balance">
-              Psicoterapia em português,{' '}
-              <span className="text-sage-600 italic">onde quer que você esteja.</span>
+              Quando tudo pesa, ter alguém para ouvir{' '}
+              <span className="text-sage-600 italic">faz diferença.</span>
             </h1>
 
             <p className="mt-6 text-lg md:text-xl text-text-secondary leading-relaxed max-w-xl mx-auto lg:mx-0">
-              Terapia online com psicóloga brasileira. Um espaço seguro de escuta, acolhimento e autoconhecimento — em&nbsp;português.
+              Abordagem psicanalítica, escuta sem julgamento e o conforto de falar na sua língua — com uma psicóloga brasileira.
             </p>
 
             <p className="mt-4 text-sm text-text-light font-medium tracking-wide">
-              7 anos de experiência em atendimento clínico
+              ✦ 7 anos de experiência em atendimento clínico
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row items-center gap-4 lg:justify-start justify-center">

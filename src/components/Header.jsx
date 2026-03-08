@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { LINKS } from '../constants';
+import { trackLead } from '../utils/analytics';
 
 const navItems = [
   { label: 'Para você', href: LINKS.forBrazilians },
@@ -30,10 +31,15 @@ export default function Header() {
         {/* Logo */}
         <a
           href="#"
-          className="font-serif text-xl md:text-2xl text-text-primary hover:text-sage-600 transition-colors"
+          className="flex items-baseline gap-2.5 hover:opacity-80 transition-opacity"
           aria-label="Início"
         >
-          Debora Costa
+          <span className="font-serif text-xl md:text-2xl text-text-primary">
+            Debora Costa
+          </span>
+          <span className="hidden sm:inline text-xs text-text-light font-medium tracking-wide">
+            CRP 04/58863
+          </span>
         </a>
 
         {/* Desktop nav */}
@@ -51,6 +57,7 @@ export default function Header() {
             href={LINKS.schedule}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={trackLead}
             className="text-sm font-medium bg-sage-500 text-white px-5 py-2.5 rounded-xl hover:bg-sage-600 transition-all"
           >
             Agendar sessão
@@ -99,7 +106,7 @@ export default function Header() {
             target="_blank"
             rel="noopener noreferrer"
             className="mt-2 text-center font-medium bg-sage-500 text-white px-5 py-3 rounded-xl hover:bg-sage-600 transition-all"
-            onClick={() => setIsMobileOpen(false)}
+            onClick={() => { trackLead(); setIsMobileOpen(false); }}
           >
             Agendar sessão
           </a>

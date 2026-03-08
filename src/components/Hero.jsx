@@ -46,7 +46,7 @@ export default function Hero() {
           <div className="flex-shrink-0">
             <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-card bg-gradient-to-br from-cream-300 via-sage-100 to-warm-300">
               <img
-                src="/debora-hero.jpg"
+                src="/photos_2/optimized/image2.jpg"
                 alt="Debora Costa, Psicóloga"
                 className="w-full h-full object-cover"
                 loading="eager"

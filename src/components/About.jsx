@@ -17,7 +17,7 @@ export default function About() {
         <div className="flex-shrink-0">
           <div className="w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden shadow-card bg-gradient-to-br from-cream-300 via-sage-100 to-warm-300">
             <img
-              src="/debora-about.jpg"
+              src="/photos_2/optimized/image4.png"
               alt="Debora Costa, Psicóloga"
               className="w-full h-full object-cover"
               loading="lazy"
